@@ -1,2 +1,3 @@
-# learning-next
-Projetos de Aprendizagem
+# Aprendendo Next.js
+
+Projetos de aprendizagem de Next.js
