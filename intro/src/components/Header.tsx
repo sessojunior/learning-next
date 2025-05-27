@@ -12,35 +12,18 @@ export default function Header() {
 			<nav>
 				<ul className='flex flex-row gap-2'>
 					<li>
-						<Link
-							href='/'
-							className='px-4 py-2 border border-zinc-200 rounded-lg'
-						>
+						<Link href='/' className='px-4 py-2 border border-zinc-200 rounded-lg'>
 							Home {pathname === '/' ? ' (atual)' : ''}
 						</Link>
 					</li>
 					<li>
-						<Link
-							href='/sobre'
-							className='px-4 py-2 border border-zinc-200 rounded-lg'
-						>
+						<Link href='/sobre' className='px-4 py-2 border border-zinc-200 rounded-lg'>
 							Sobre {pathname === '/sobre' ? ' (atual)' : ''}
 						</Link>
 					</li>
 					<li>
-						<Link
-							href='/posts'
-							className='px-4 py-2 border border-zinc-200 rounded-lg'
-						>
+						<Link href='/posts' className='px-4 py-2 border border-zinc-200 rounded-lg'>
 							Posts {pathname === '/posts' ? ' (atual)' : ''}
-						</Link>
-					</li>
-					<li>
-						<Link
-							href='/delivery'
-							className='px-4 py-2 border border-zinc-200 rounded-lg'
-						>
-							Delivery {pathname === '/delivery' ? ' (atual)' : ''}
 						</Link>
 					</li>
 					<li>
@@ -52,11 +35,8 @@ export default function Header() {
 						</Link>
 					</li>
 					<li>
-						<Link
-							href='/fetch'
-							className='px-4 py-2 border border-zinc-200 rounded-lg'
-						>
-							Fetch {pathname === '/fetch' ? ' (atual)' : ''}
+						<Link href='/todos' className='px-4 py-2 border border-zinc-200 rounded-lg'>
+							Todos {pathname === '/todos' ? ' (atual)' : ''}
 						</Link>
 					</li>
 				</ul>
